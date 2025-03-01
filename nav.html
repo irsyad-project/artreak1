@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Navigasi</title>
+    <style>
+        /* Styling dasar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+
+        /* Gaya untuk header */
+        .header-container {
+            margin-top: 50px;
+            padding: 20px;
+            background: linear-gradient(135deg, #007BFF, #00C6FF);
+            color: white;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .header-container h1 {
+            margin: 10px 0;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-container h2 {
+            font-size: 24px;
+            font-weight: lighter;
+            margin: 10px 0;
+        }
+
+        /* Gaya untuk navigasi */
+        .nav-container {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .nav-container a, .back-button {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-container a:hover, .back-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Tombol kembali ke navigasi */
+        .back-button {
+            margin-top: 40px;
+            background-color: #ff4500;
+        }
+
+        .back-button:hover {
+            background-color: #d63b00;
+        }
+
+        /* Animasi saat hover */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header-container" id="top">
+        <h1>Selamat Datang</h1>
+        <h2>Mengenal Alat Musik Tradisional yang Digunakan di Seni Reak</h2>
+    </div>
+
+    <div class="nav-container" id="nav">
+        <a href="waditra.html">Apa itu Dogdog?</a>
+        <a href="partdogdog.html">Apa saja bagian Dogdog?</a>
+        <a href="shop.html">Ingin punya alat Reak? Beli di sini!</a>
+    </div>
+
+   
+
+</body>
+</html>
